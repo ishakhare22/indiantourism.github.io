@@ -150,6 +150,8 @@ img {
   padding: 0;
   position: absolute;
   margin-top: 6%;
+  left: 0;
+    right: 0;
 }
 
 .cards_item {
