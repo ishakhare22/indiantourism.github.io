@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+html {
+  scroll-behavior: smooth;
+}
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+.bg-transparent {
+  background-color: #00000083 !important;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.banner {
+  width: auto;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: #c04848;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url("https://lh3.googleusercontent.com/proxy/EGZpmGIttQBtEirUkHZJosiuBzioknAw1ZuuNhGkPiO-TLHgr5cBgfJe7wPgBPqRuYmOj0nE1a8VpJwNuANPWK4LRGMXhtTuvfTZXKelNQ6fPUjunUU6Aj3kFVfmyurUKM9ctMobIprCkMb4oJtzfYCcLFX4mq-sd7fZZrHcLzOoyUuQgxd9nwLBBsAoRrIcsjQ-ZgKTVLEoS77lJK60HcHn1oNajEJTLGwBqjjCvu2KPwI630ENk_EGUhT7Eh96Q8XEs84PS7528g=w1200-h630-p-k-no-nu");
+  background: -webkit-linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url("https://lh3.googleusercontent.com/proxy/EGZpmGIttQBtEirUkHZJosiuBzioknAw1ZuuNhGkPiO-TLHgr5cBgfJe7wPgBPqRuYmOj0nE1a8VpJwNuANPWK4LRGMXhtTuvfTZXKelNQ6fPUjunUU6Aj3kFVfmyurUKM9ctMobIprCkMb4oJtzfYCcLFX4mq-sd7fZZrHcLzOoyUuQgxd9nwLBBsAoRrIcsjQ-ZgKTVLEoS77lJK60HcHn1oNajEJTLGwBqjjCvu2KPwI630ENk_EGUhT7Eh96Q8XEs84PS7528g=w1200-h630-p-k-no-nu");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.titleContainer {
+}
+.title {
+  text-align: center;
+  margin: auto;
+  top: 30%;
+  left: 0;
+  right: 0;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/490/979/618/anime-natural-scenery-hd-wallpaper-preview.jpg");
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 6rem;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Steelfish Rg", "helvetica neue", helvetica, arial, sans-serif;
+  font-weight: 800;
+}
+
+.blogs {
+  /* position: absolute; */
+  width: auto;
+  margin: auto;
+  top: 90%;
+  height: 100vh;
+  background-color: beige;
+}
+.btnContainer {
+  margin-top: 5%;
+}
+.discoverBTN {
+  padding: 15px 30px;
+  font-size: 2rem;
+  font-weight: 600;
+  font-weight: bold;
+  color: black;
+  border-radius: 50px;
+  border: none;
+  background-color: rgba(246, 246, 246, 0.665);
+  transition: 0.2s ease-in-out;
+}
+.bottomOverlay {
+  width: 100%;
+  height: 20%;
+  background: rgb(245, 245, 220);
+  background: linear-gradient(
+    0deg,
+    rgba(245, 245, 220, 1) 2%,
+    rgba(0, 0, 0, 0) 63%
+  );
+}
+.discoverBTN:hover {
+  background-color: rgba(246, 246, 246, 0.959);
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  margin-top: 6%;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 20%;
+    margin: auto;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 1.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transform: scale(0.9);
+  transition: 0.2s ease-in-out;
+}
+.card:hover {
+  transform: scale(1);
+}
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #ef8d9c 40%, #ffc39e 100%);
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+  text-decoration: underline;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+}
+.blog {
+  width: 100%;
+  height: 91.5vh;
+  display: flex;
+  background-color: #debba3;
+  flex-wrap: wrap;
+}
+.img {
+  flex: 0.3;
+    margin-top: 2.5%;
+    padding: 1rem;
+}
+.img h2{
+  margin: auto;
+  text-transform: uppercase;
+  color: #262626;
+  text-decoration: underline;
+  font-size: 3rem;
+    /* margin-left: 10%; */
+    margin-bottom: 4%;
+}
+.content {
+  flex: 0.7;
+  /* background: aliceblue; */
+  margin-top: 7%;
+  padding: 1rem;
+}
+.content p{
+  font-size: 1rem;
+}
+.content p span{
+  font-size: 2rem;
+  font-weight: 600;
+}
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
